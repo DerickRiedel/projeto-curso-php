@@ -1,0 +1,65 @@
+:root {
+    --bg-1: rgb(26, 43, 68);
+    --bg-2: rgb(38, 65, 102);
+    --bg-3: #212529;
+    --bg-4: rgb(29, 50, 78);
+    --bg-5: rgb(51, 82, 126);
+    --bg-6: rgb(79, 118, 173);
+    --cl-1: rgb(228, 228, 228);
+    --cl-2: rgb(185, 185, 185);
+    --bd-1: rgb(150, 150, 150);
+    --bd-2: rgb(129, 129, 129);
+}
+
+body{
+    background-color: var(--bg-1) !important ;
+    color: var(--cl-1)!important ;
+    overflow-x: hidden;
+}
+.card-body, .card, li, .ticket, .item_section{
+    background-color: var(--bg-2)!important ;
+    color: var(--cl-1)!important ;
+    border: none !important;
+}
+nav, nav div, nav li , nav form, nav button, nav a{
+    background-color: unset!important ;
+    color: unset !important ;
+}
+
+form, .modal-content{
+    background: var(--bg-2)!important ;
+}
+
+img{
+    background-color: var(--bg-4) !important ;
+    color: var(--cl-1)!important ;
+}
+
+textarea, input{
+    background-color: var(--bg-4) !important ;
+    color: var(--cl-1)!important ;
+    border: none !important;
+}
+button, .message, .item{
+    background-color: var(--bg-5) !important ;
+    color: var(--cl-1)!important ;
+    border: none !important ;
+}
+.button2{
+    background-color: var(--bg-6) !important ;
+    color: var(--cl-1)!important ;
+    border: none !important ;
+}
+select{
+    background-color: var(--bg-4) !important ;
+    color: var(--cl-1)!important ;
+    border: none !important ;
+}
+
+table{
+    background-color: var(--bg-2);
+}
+
+a{
+    color: unset
+}
