@@ -1,2 +1,2 @@
-# projeto-intranet-php
- Projeto Intranet utilizando PHP orientado a objetos
+# projeto-tickets-php
+ Projeto de Tickets de suporte de Empréstimo de equipamentos utilizando PHP orientado a objetos
